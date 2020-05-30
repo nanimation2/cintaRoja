@@ -7,4 +7,4 @@ class Largometraje {
     }
 }
 
-module.exports={ Largometraje }
+module.exports = { Largometraje }

@@ -1,5 +1,5 @@
 var { documental1, documental2 } = require("./Documental.js");
-var {pelicula1, pelicula2} = require("./Pelicula");
+var { pelicula1, pelicula2 } = require("./Pelicula");
 
 class Cine {
     constructor(cadena, butacas, pantallas) {
@@ -8,9 +8,9 @@ class Cine {
         this.pantallas = pantallas;
     }
     reproducirLarjometraje(largometraje) {
-        if(largometraje.entrada == "$3"){
+        if (largometraje.entrada == "$3") {
             return "Estas viendo el documental " + largometraje.titulo
-        }else{
+        } else {
             return "Estas viendo la pelicula " + largometraje.titulo
         }
         // return largometraje
