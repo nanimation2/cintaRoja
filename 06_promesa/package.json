@@ -1,0 +1,19 @@
+{
+  "name": "06_promesa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ejemplo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "promise",
+    "request",
+    "band"
+  ],
+  "author": "Sam (nanimation)",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
