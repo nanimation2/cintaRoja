@@ -11,7 +11,7 @@ const buscaBanda = (nombre) => {
                 // console.log('encontre a la banda')
                 // console.log(body)
                 const respuesta = JSON.parse(body);
-                console.log(respuesta.artists[0].strArtist)
+                // console.log(respuesta.artists[0].strArtist)
                 const banda = new Banda(
                     respuesta.artists[0].strArtist,
                     respuesta.artists[0].intBornYear,
@@ -32,3 +32,6 @@ buscaBanda("queen")
     .catch((error) => console.log(error))
 
 
+buscaBanda("jose jose")
+    .then((banda) => console.log(banda))
+    .catch((error) => console.log(error))
